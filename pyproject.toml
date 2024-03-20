@@ -10,7 +10,7 @@ authors = [{name = "Sander Boden", email = "s.boden1@avans.nl"}]
 maintainers = [{name = "Sander Boden", email = "s.boden1@avans.nl"}]
 description = "Python wrapper for running ONT workflows"
 readme = "README.md"
-licence = {file = "LICENSE"}
+license = {file = "LICENSE"}
 
 [project.scripts]
 wf-runner = "wfrunner:cli"
