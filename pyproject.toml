@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name= "wf-runner"
+dynamic = ["version"]
+requires-python = ">= 3.11"
+authors = [{name = "Sander Boden", email = "s.boden1@avans.nl"}]
+maintainers = [{name = "Sander Boden", email = "s.boden1@avans.nl"}]
+description = "Run ONT nextflow pipelines quick and easy!"
+readme = "README.md"
+licence = {file = "LICENSE"}
+
+[project.scripts]
+wf-runner = "wfrunner:cli"
+
+[project.urls]
+Homepage = "https://github.com/AVANS-ATGM/wf-runner"
+Issues = "https://github.com/AVANS-ATGM/wf-runner/issues"
+
+
