@@ -8,7 +8,7 @@ dynamic = ["version"]
 requires-python = ">= 3.11"
 authors = [{name = "Sander Boden", email = "s.boden1@avans.nl"}]
 maintainers = [{name = "Sander Boden", email = "s.boden1@avans.nl"}]
-description = "Run ONT nextflow pipelines quick and easy!"
+description = "Python wrapper for running ONT workflows"
 readme = "README.md"
 licence = {file = "LICENSE"}
 
